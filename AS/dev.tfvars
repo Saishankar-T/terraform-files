@@ -1,0 +1,12 @@
+provider_region         = "ap-south-1"
+template_image_id       = "ami-0ad21ae1d0696ad58"
+template_instance_type  = "t2.small"
+template_key_name       = "sai"
+template_name           = "template-1"
+template_resource_type  = "instance"
+template_instances_name = "server"
+asg_name                = "asg-1"
+asg_min_size            = 2
+asg_max_size            = 5
+asg_desired_capacity    = 2
+asg_az                  = ["ap-south-1a", "ap-south-1b", "ap-south-1c"]
