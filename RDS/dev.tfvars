@@ -1,0 +1,12 @@
+provider_region      = "ap-south-1"
+db-engine            = "mysql"
+db-engine_version    = "8.0"
+db-instance_class    = "db.t3.micro"
+db-allocated_storage = 15
+db-name              = "sampledb"
+db-username          = "admin"
+db-password          = "sslp1437"
+skip_final_snapshot  = true
+deletion_protection  = false
+publicly_accessible  = true
+identifier-name      = "test-db"
